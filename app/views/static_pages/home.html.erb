@@ -1,5 +1,10 @@
 <% provide(:title, 'Home') %>
-<h1>Web Homework</h1>
-<p>
-  This is the home page for the web homework application.
-</p>
+<div class="center hero-unit">
+	<h1>Web Homework</h1>
+	<h2>
+		This is the home page for the web homework application.
+	</h2>
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("Iam.png", alt: "Irina"), 'http://rubyonrails.org/' %>
