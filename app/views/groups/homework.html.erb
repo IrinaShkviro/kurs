@@ -1,2 +1,14 @@
-<h1>Groups#homework</h1>
-<p>Find me in app/views/groups/homework.html.erb</p>
+<h1>Homework</h1>
+<table>
+  <tr>
+    <th>Surname</th>
+    <th>Name</th>
+  </tr>
+
+  <% @users.each do |user| %>
+      <tr>
+        <td><%= user.surname %></td>
+        <td><%= user.name %></td>
+      </tr>
+  <% end %>
+</table
